@@ -40,7 +40,7 @@ function App() {
         {/* 練習區 */}
         
         <Routes>
-          <Route path="/" element={<Home />} /> 
+          <Route path="/" /> 
           <Route path="register" element={<Register />} /> 
           <Route path="login" element={<Login />} /> 
           <Route path="todo" element={<Todo />} /> 
